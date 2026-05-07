@@ -70,7 +70,7 @@ def escape_markdown(text: str) -> str:
 class Database:
     def __init__(self):
         self.client = MongoClient("mongodb+srv://ak90441100_db_user:SoEGOOuCxaoUncDO@cluster0.8pjh6u8.mongodb.net/?appName=Cluster0")
-        self.db = self.client[BGMI SERVER FRZEE ]
+        self.db = self.client["BGMI_SERVER_FRZEE"]
         self.users = self.db.users
         self.attacks = self.db.attacks
         
