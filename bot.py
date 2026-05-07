@@ -31,11 +31,11 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("8652411411:AAFm3m5gU3eI_Uhh8ibJyuld6VDpa775bdE")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "attack_bot")
-API_URL = os.getenv("https://dashboard.clerk.com/apps/app_3DPDlwFq3wQH2ZjcVzsIdCDnIOp/instances/ins_3DPDlxzj4JEKkoZr9xoaHzLJazf/api-keys")
-API_KEY = os.getenv("sk_test_3TG1csz5L8OcWPdHqKtpnPCncgR9ze3CSaAT7jrTPr")
+API_URL = os.getenv("API_URL")
+API_KEY = os.getenv("API_KEY")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "7178871598").split(",")]
 
 # Blocked ports (must match backend)
